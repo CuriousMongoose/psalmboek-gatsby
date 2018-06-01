@@ -1,36 +1,42 @@
 psalms:
-  ps1:
-    v1: |
+- psalm: 1
+  verse:
+  - vers : 1
+    teks: |
       Welsalig hy wat op die spoor nie gaan
       waar sondaars lok; wat op hul pad nie staan,
       of neersit waar die spotglans in die oog is,
       waar spotters vrolik spot met al wat hoog is;
       maar wat Gods wet in stille mymering,
       by dag en nag, weer in gedagt'nis bring.
-    v2: |
+  - vers: 2
+    teks: |
       Hy is 'n boom wat diep en vas geplant,
       sy wortels uitsprei by die waterkant;
       en mild versorg deur vrugb're lentelugte,
       sy volle drag laat sien van somervrugte.
       Geen onspoed wat hom in sy werk sal stuit:
       wat hy begin, voer hy voorspoedig uit.
-    v3: |
+  - vers: 3
+    teks: |
       So is die sondaar nie; sy aardse tyd
       is wisselspel en onbestendigheid.
       Hy's soos die kaf aan stormwind prysgegewe;
       in nietigheid, so eindig hy sy lewe;
       hy hou nie stand waar God se volk Hom eer,
       of waar die straf tot weervergelding keer.
-    v4: |
+  - vers: 4
+    teks: |
       God ken die pad waarop sy volk moet gaan;
       sy oog is dit wat hulle gadeslaan
       en met sy lig hul lewenspad bestraal het;
       maar sondaarspad wat van Hom weggedaal het -
       dit moet vergaan; onkeerbaar in hul spoed,
       loop hul oplaas 'n afgrond tegemoet.
-
-  ps2:
-    v1: |
+- psalm: 2
+  verse:
+  - vers: 1
+    teks: |
       Wat dring en dryf die wilde heidendom,
       dat volke raas in opgewondenheid?
       Gedugte konings staan gereed alom,
@@ -39,7 +45,8 @@ psalms:
       en saam teen sy Gesalfde op te staan.
       Hul sê: "Kom nou, laat ons hul bande breek
       en van hul juk vir altyd ons ontslaan!"
-    v2: |
+  - vers: 2 
+    teks: |
       Maar God die HEER wat sy gedugte stoel
       bo sterre stig, sien van sy hoogtes neer;
       Hy lag en spot dat hul so vrugt'loos woel
@@ -48,7 +55,8 @@ psalms:
       dan gloei die lug van vlammmende=onweerslig.
       Dis God wat spreek! Hy donder van omhoog
       en jaag sy skrik hul in die aangesig.
-    v3: |
+  - vers: 3 
+    teks: |
       "Durf jy dit waag om met my krag te twis?
       Sal niet'ge stof My my gesag ontwring?
       Of weerstand bied aan wie almagtig is?
@@ -57,7 +65,8 @@ psalms:
       Ek het my Vors gesalf - wee, wie Hom hoon! -
       op Sionsberg van heiligheid omgeef,
       waar Hy sal heers en ewig sit ten troon."
-    v4: |
+  - vers: 4
+    teks: |
       En Ek, dié Vors, so hoog in mag en eer,
       sal Gods besluit die wêreld oor laat klink:
       "Ek self (sê God) het U gegenereer:
@@ -66,7 +75,8 @@ psalms:
       En dat u troon vir ewig vas mag bly,
       gee Ek die volke tot u erfenis
       en wêreldwydtes tot u heerskappy."
-    v5: |
+  - vers: 5
+    teks: |
       "Die trotsaards sal U met u ysterstaf
       soos erdepotte slaan tot gruis en skerf;
       U sal, as eers u hand ontwaak tot straf,
@@ -75,7 +85,8 @@ psalms:
       laat nooit u hoogheid Gods Gesalfde hoon!
       O regters, wat oortreders regstug leer,
       aanvaar die tug wat u sy liefde toon.
-    v6: |
+  - vers: 6 
+    teks: |
       Kom, dien die HEER en wees in Hom verblyd
       met blydskap wat Hom huldig as die HEER,
       en kus die Seun in onderworpenheid,
