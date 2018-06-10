@@ -2,9 +2,20 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      huidigePsalmNo: 1
+    }
+  }
+
+  onKiesPsalm(nuwePsalmNo) {
+    this.setState({huidigePsalmNo: nuwePsalmNo});
+  }
+  
   render() {
-    const huidigePsalm = this.props.data.srcYaml.psalms.find((ps) => (ps.psalm === 2));
-    console.log(huidigePsalm)
+    const huidigePsalm = this.props.data.srcYaml.psalms.find((ps) => (ps.psalm === this.state.huidigePsalmNo));
+    console.log(huidigePsalm);
     return(
       <div>
         <h1>Psalm {huidigePsalm.psalm}</h1>
