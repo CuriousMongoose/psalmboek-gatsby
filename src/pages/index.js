@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import PsalmSelector from '../components/psalm-selector'
 
 class App extends React.Component {
   constructor() {
@@ -18,10 +19,10 @@ class App extends React.Component {
     console.log(huidigePsalm);
     return(
       <div>
-        <h1>Psalm {huidigePsalm.psalm}</h1>
+        <PsalmSelector huidigePsalmNo={this.state.huidigePsalmNo} />
         {huidigePsalm.verse.map(({vers, teks}) => (
           <div>
-            <h3> {vers} </h3>
+            <h4> {vers} </h4>
             <p> {teks} </p>
           </div>
         ))}
@@ -31,23 +32,6 @@ class App extends React.Component {
 }
 
 export default App;
-
-// export default ({ data }) =>{
-//   console.log(data)
-//   const huidigePsalm = data.srcYaml.psalms.find((ps) => (ps.psalm === 2));
-//   console.log(huidigePsalm)
-//   return(
-//     <div>
-//       <h1>Psalm {huidigePsalm.psalm}</h1>
-//       {huidigePsalm.verse.map(({vers, teks}) => (
-//         <div>
-//           <h3> {vers} </h3>
-//           <p> {teks} </p>
-//         </div>
-//       ))}
-//     </div>
-//   )
-// }
 
 export const query = graphql`
   query PsalmsQuery {
