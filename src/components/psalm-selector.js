@@ -9,8 +9,10 @@ class PsalmSelector extends React.Component {
     render() {
         return (
             <div>
-                <h2>Psalm </h2>
-                <h2>{this.state.psNo}</h2>
+                <div>
+                    <h2>Psalm </h2>
+                    <h2>{this.state.psNo}</h2>
+                </div>
             </div>
         )
     }
