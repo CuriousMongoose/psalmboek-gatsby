@@ -3,8 +3,8 @@ import Link from 'gatsby-link';
 import PsalmSelector from '../components/psalm-selector'
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       huidigePsalmNo: 1
     }
@@ -15,11 +15,19 @@ class App extends React.Component {
   }
   
   render() {
+    const psalmLys = this.props.data.srcYaml.psalms.reduce((psLys, ps) => {
+      psLys.push(ps.psalm);
+      return psLys;
+    }, [])
+    //console.log(psalmLys);
     const huidigePsalm = this.props.data.srcYaml.psalms.find((ps) => (ps.psalm === this.state.huidigePsalmNo));
     console.log(huidigePsalm);
+
     return(
       <div>
-        <PsalmSelector huidigePsalmNo={this.state.huidigePsalmNo} />
+        <PsalmSelector 
+          psalmLys = {psalmLys} 
+          huidigePsalmNo={this.state.huidigePsalmNo} />
         {huidigePsalm.verse.map(({vers, teks}) => (
           <div>
             <h4> {vers} </h4>

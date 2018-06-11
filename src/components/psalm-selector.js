@@ -4,6 +4,7 @@ class PsalmSelector extends React.Component {
     constructor(props) {
         super(props)
         this.state = { psNo: this.props.huidigePsalmNo }
+        console.log(this.props.psalmLys)
     }
 
     render() {
@@ -13,6 +14,11 @@ class PsalmSelector extends React.Component {
                     <h2>Psalm </h2>
                     <h2>{this.state.psNo}</h2>
                 </div>
+                {this.props.psalmLys.map((x) => (
+                    <span> 
+                        <p> {x} </p>
+                    </span>
+                ))}
             </div>
         )
     }
